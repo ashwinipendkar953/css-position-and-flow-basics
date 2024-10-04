@@ -1,0 +1,104 @@
+.fw-bold {
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.black-border {
+  border: 2px solid black;
+}
+
+/* question 1 */
+.list {
+  padding-left: 15px;
+}
+
+.list .item-one {
+  position: relative;
+  left: 0;
+}
+
+.list .item-two {
+  position: relative;
+  left: 30px;
+}
+
+.list .item-three {
+  position: relative;
+  left: 60px;
+}
+
+/* question 2 */
+.gray-box-section {
+  margin-bottom: 7rem;
+}
+.gray-box {
+  background-color: lightgrey;
+  margin-right: 2px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.gray-box-section .second-box {
+  position: relative;
+  top: 30px;
+}
+
+.gray-box-section .third-box {
+  position: relative;
+  top: 60px;
+}
+
+/* question 3 */
+.light-gray-container {
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.light-pink-box {
+  background-color: lightpink;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* question 4 */
+.menu-box {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.menu-box .first-menu-box {
+  background-color: lightpink;
+  padding: 8px;
+}
+
+.menu-box .second-menu-box {
+  display: inline-block;
+  background-color: lightgray;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+}
+
+/* question 5 */
+.light-gray-boxes {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.light-gray-box {
+  display: inline-block;
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
